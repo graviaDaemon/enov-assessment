@@ -38,6 +38,8 @@ public class Create
     {
         string request = await new StreamReader(req.Body).ReadToEndAsync();
         RequestBody data = JsonConvert.DeserializeObject<RequestBody>(request);
+        
+        log.LogInformation(JsonConvert.SerializeObject(data.Items[0]));
 
         IEnumerable<Item> results = await _service.CreateAsync(data.Items);
 
