@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enov.API", "Enov.API\Enov.API.csproj", "{3FAFE0AA-FE3F-4834-8EFE-593140353533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enov.Console", "Enov.Console\Enov.Console.csproj", "{7B8F8944-9768-48AC-A89C-5F16CFC7536B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FAFE0AA-FE3F-4834-8EFE-593140353533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAFE0AA-FE3F-4834-8EFE-593140353533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAFE0AA-FE3F-4834-8EFE-593140353533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAFE0AA-FE3F-4834-8EFE-593140353533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8F8944-9768-48AC-A89C-5F16CFC7536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F8944-9768-48AC-A89C-5F16CFC7536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F8944-9768-48AC-A89C-5F16CFC7536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F8944-9768-48AC-A89C-5F16CFC7536B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
