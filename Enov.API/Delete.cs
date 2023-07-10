@@ -36,10 +36,11 @@ public class Delete
         log.LogInformation(string.Join("_", query));
         string[] ids = query[0].Split(",");
 
+        // TODO: Return only the IDS that were deleted, this check should happen in the _service.DeleteAsync() method
         bool result = await _service.DeleteAsync(ids);
         
         if (result)
-            return new OkObjectResult("Success!");
+            return new OkObjectResult($"Success!\nThe following ids were deleted: {string.Join(", ", ids)}");
 
         return new BadRequestObjectResult("Some Ids were not deleted, check the database for further information.");
     }
